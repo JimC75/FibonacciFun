@@ -18,8 +18,8 @@ function sub() {
         }
     }
     const para = document.createElement("p");
+    para.setAttribute("class", "result")
 
-    para.innerText = `Nombre correspondant à n = ${value} sur la suite de fobonacci est le ${acc[acc.length - 1]}`
+    para.innerText = `Le nombre correspondant à n = ${value} sur la suite de Fobonacci est le ${acc[acc.length - 1]}`
     form.appendChild(para);
-
 }
